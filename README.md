@@ -2,7 +2,7 @@
 
 Tutorialjs is a library to do websides tutorial using popups.
 
-It helps new user to get into a new application, showing step by step how to use all the components. 
+Its purpose is to help new users to get into a new application, showing step by step how to use all the components. 
 
 This library is base on [Semantic UI elements](https://semantic-ui.com/) and it uses [Semantic UI popups](https://semantic-ui.com/modules/popup.html).
 
@@ -101,7 +101,7 @@ The following is a tutorial with three index steps:
 
 ### Javascript
 
-Once you have setup the HTML you are ready to run the tutorial. The simplest way to do it is using the **``start``** function of the **Tutorial** object, as follow:
+Once you have setup the HTML, you are ready to run the tutorial. The simplest way to do it is by using the **``start``** function of the **Tutorial** object, as follow:
 
 ```javascript
 Tutorial.start().then((success) => {
@@ -111,7 +111,7 @@ Tutorial.start().then((success) => {
 })
 ```
 
-Tutorialjs runs the **`start`** function as a **async promise** so you must use **`then`** and **`catch`** to way for the response.
+Tutorialjs runs the **`start`** function as a **async promise**, so you must use **`then`** and **`catch`** to way for the response.
 
 
 
@@ -136,7 +136,7 @@ Tutorialjs runs the **`start`** function as a **async promise** so you must use 
 
 ## Options
 
-The correct way to set options is assign then before you trigger the **``start``** function, here an example:
+The correct way to set options is to assign and then before you trigger the **``start``** function, here's an example:
 
 ```javascript
 Tutorial.startIndex = 0;
